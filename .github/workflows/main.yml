@@ -2,7 +2,7 @@ name: Sync Upstream
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # alle 10 Minuten
+    - cron: "*/60 * * * *"   # alle 10 Minuten
   workflow_dispatch:
 
 jobs:
