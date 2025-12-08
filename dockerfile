@@ -6,3 +6,4 @@ FROM odoo:19.0
 
 # Standard-Port
 EXPOSE 8069
+
