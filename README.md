@@ -1,4 +1,19 @@
-# Odoo
+# Odoo (Novahead Build)
+
+**Novahead Odoo Build**  
+Fork of `odoo/odoo` (branch 19.0), optimized for:
+
+- ARM builds for Raspberry Pi  
+- Docker images for `pi-base:5000/odoo:<tag>`  
+- Kubernetes/Helm deployment (`Helm/odoo-arm`)  
+- Custom addons + Azure DevOps CI/CD integration  
+
+This fork does not modify Odoo’s functionality.  
+It provides build, packaging and deployment optimizations for the Novahead infrastructure.
+
+---
+
+# Original Odoo README (unchanged)
 
 [![Build Status](https://runbot.odoo.com/runbot/badge/flat/1/master.svg)](https://runbot.odoo.com/runbot)
 [![Tech Doc](https://img.shields.io/badge/master-docs-875A7B.svg?style=flat&colorA=8F8F8F)](https://www.odoo.com/documentation/master)
@@ -12,26 +27,24 @@ The main Odoo Apps include an [Open Source CRM](https://www.odoo.com/page/crm),
 [eCommerce](https://www.odoo.com/app/ecommerce),
 [Warehouse Management](https://www.odoo.com/app/inventory),
 [Project Management](https://www.odoo.com/app/project),
-[Billing &amp; Accounting](https://www.odoo.com/app/accounting),
+[Billing & Accounting](https://www.odoo.com/app/accounting),
 [Point of Sale](https://www.odoo.com/app/point-of-sale-shop),
 [Human Resources](https://www.odoo.com/app/employees),
 [Marketing](https://www.odoo.com/app/social-marketing),
 [Manufacturing](https://www.odoo.com/app/manufacturing),
-[...](https://www.odoo.com/)
+[…](https://www.odoo.com/)
 
-Odoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get
-a full-featured [Open Source ERP](https://www.odoo.com) when you install several Apps.
+Odoo Apps can be used as stand-alone applications or combined into a full-featured open-source ERP.
 
-## Getting started with Odoo
+## Getting started
 
-For a standard installation please follow the [Setup instructions](https://www.odoo.com/documentation/master/administration/install/install.html)
-from the documentation.
+For installation steps, see the official [Setup documentation](https://www.odoo.com/documentation/master/administration/install/install.html).
 
-To learn the software, we recommend the [Odoo eLearning](https://www.odoo.com/slides),
-or [Scale-up, the business game](https://www.odoo.com/page/scale-up-business-game).
-Developers can start with [the developer tutorials](https://www.odoo.com/documentation/master/developer/howtos.html).
+Training resources:
+- [Odoo eLearning](https://www.odoo.com/slides)
+- [Scale-Up business game](https://www.odoo.com/page/scale-up-business-game)
+- [Developer tutorials](https://www.odoo.com/documentation/master/developer/howtos.html)
 
 ## Security
 
-If you believe you have found a security issue, check our [Responsible Disclosure page](https://www.odoo.com/security-report)
-for details and get in touch with us via email.
+If you believe you found a security issue, see the [Responsible Disclosure page](https://www.odoo.com/security-report).
